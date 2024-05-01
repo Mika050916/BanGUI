@@ -1,0 +1,38 @@
+name: BanGUI
+main: BanGUIPlagin\BanGUI\Main
+api: 5.0.0
+version: 1.0.0
+author: Mika050916
+
+commands:
+  sban:
+    description: Заблокировать игрока
+    permission: newplugin.sban
+  sunban:
+    description: Разблокировать игрока
+    permission: newplugin.sunban
+  warn:
+    description: Выдать предупреждение игроку
+    permission: newplugin.warn
+  unwarn:
+    description: Забрать предупреждение
+    permission: newplugin.unwarn
+  mute:
+    description: Замутить игрока
+    permission: newplugin.mute
+
+permissions:
+  newplugin.nomessage:
+    default: op
+  newplugin.sban:
+    default: op
+  newplugin.sunban:
+    default: op
+  newplugin.warn:
+    default: op
+  newplugin.unwarn:
+    default: op
+  newplugin.mute:
+    default: op
+  newplugin.unmute:
+    default: op
